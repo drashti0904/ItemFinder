@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+.container{
+  position: absolute;
+  top: 15%;
+  /*left: 50%; 
+  transform: translate(-50%, -50%); */
+  
+  border: 1px solid black;
+  padding: 20px;
+  height: 60vh;
+  width: 20%;
+}
+input{
+    margin:10px 0 ;
+
+}
+input[type=text]{
+    outline: 0; 
+    border-width: 0 0 2px;
+    width: 100%; 
+}
+
+button{
+    margin: 10px 0;
+}
+
